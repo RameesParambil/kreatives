@@ -1,0 +1,233 @@
+
+.navbar-brand {
+    display: flex;
+}
+body {
+    font-family: Sora, sans-serif;
+    line-height: 1.7;
+    color: #f0f0f0;
+}
+h1, .display-4 {
+    color: #333333;
+}
+.hello, #head {
+    font-weight: 700;
+
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+.navbar{
+    box-shadow: 2px 2px 3px #888888;
+}
+.navbar .nav-link {
+    font-size: 14px;
+    font-weight: 700;
+} 
+.btn {
+    padding: 14px 18px;
+    border-width: 2px;
+}
+.hero {
+    background-image: url(../images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+.hero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 20 , 51, 0.8 );
+    z-index: -1;
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.card-effect{
+    box-shadow:  0 8px 22px rgba(0,0,0,0.1);
+    background-color: #fff;
+    padding: 25px;
+    transition: all 0.35s ease;
+}
+.card-effect:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+.iconbox {
+    width: 54px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: #fff;
+    font-size: 32px;
+    border-radius: 100px;
+    flex: none;
+}
+
+
+.about {
+    padding-bottom: 70px;
+}
+.about .content .who {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: rgba(38, 24, 24, 0.4);
+}
+.about .content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+.about .content ul {
+    list-style: none;
+  
+}
+.about .content p:last-child {
+    margin-bottom: 0;
+}
+.about .content .read-more {
+    background: #388da8;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 12px 24px;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .about-images img {
+    border-radius: 10px;
+}
+
+.col-img {
+    background-image: url(../images/cover2.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+img {
+    width: 100%;
+}
+
+.project {
+    position: relative;
+    overflow: hidden;
+}
+.project .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 20 , 51, 0.8 );
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.4s ease;
+    opacity: 0;
+}
+.project img {
+    transition: all 0.4s ease;
+}
+.project:hover .overlay {
+    opacity: 1;
+}
+.project:hover img {
+    transform: scale(1.1);
+}
+
+.pricing span {
+    font-size: 25px;
+    margin-right: 10px;
+}
+.pricing ul{
+    padding: 0; 
+    list-style: none; 
+    justify-content: center;
+    text-align: center;
+}
+.pricing ul li {
+    margin-top: 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 10px;
+}
+.team-member img {
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-icons a {
+    width: 34px;
+    height: 34px;
+    background-color: #0d6efd;
+    border-radius: 2px solid #0d6efd;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    margin-left: 5px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border: 1px solid #0d6efd;
+}
+.social-icons a:hover {
+    color: #0d6efd;
+    background-color: transparent;
+    border-color: #0d6efd;
+}
+#blog a {
+    text-decoration: none;
+}
+
+/* contact */
+form input.form-control {
+    height: 56px;
+
+}
+form .form-control {
+    border-radius: 0;
+    background-color: 0,0,0,(0.2);
+}
+
+/* footer */
+.footer-top {
+    padding-bottom: 90px;
+    padding: 90px;
+    background-color: #21252f;
+}
+.logo{
+    width: 160px;
+}
+.footer-top a ,li  {
+    color: #888;
+    text-decoration: none;
+}
+.footer-top a:hover {
+    color: #fff;
+}
+.footer-bottom {
+    background-color: #242933;
+}
+.footer-bottom .bottom {
+    color: #888;
+}
