@@ -16,3 +16,6 @@
 - HTML: For structuring content.
 - CSS: For styling and design.
 - Bootstrap: To ensure a fully responsive and modern layout.
+
+
+![image](https://github.com/RameesParambil/kreatives/blob/277a99bcdc27ee8e8576afa94c5b91b21ee4d626/Screenshot%202024-12-13%20111325.png)
