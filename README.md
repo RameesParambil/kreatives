@@ -1,5 +1,5 @@
 # Kreatives: A Modern and Responsive Website
-- Kreatives is a sleek and user-friendly website template built using HTML, CSS, and Bootstrap, designed to deliver an exceptional user experience and adapt seamlessly across devices.
+ Kreatives is a sleek and user-friendly website template built using HTML, CSS, and Bootstrap, designed to deliver an exceptional user experience and adapt seamlessly across devices.
 
 ## Key Features:
 - Dynamic Hero Section: Stylish design with call-to-action buttons to engage visitors.
